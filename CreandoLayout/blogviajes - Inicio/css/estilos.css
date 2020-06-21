@@ -47,6 +47,42 @@ p {
     overflow: auto; /** esto es cuando usamos floats **/
 }
 
+/** Navegacion Responsive**/
+
+.barra {
+    overflow: hidden;
+}
+.mobile-menu {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+#nav:target {
+    max-height: 800px;
+}
+
+.navegacion-principal {
+    max-height: 0;
+    transition: .5s;
+}
+
+@media (min-width: 768px) {
+    .navegacion-principal {
+        max-height: unset;
+    }
+    .mobile-menu,
+    .cerrar {
+        display: none!important;
+    }
+    
+}
+
+
 /** Navegacion **/
 
 .barra {

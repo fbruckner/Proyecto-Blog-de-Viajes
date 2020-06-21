@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Blog de vajes</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
@@ -14,12 +15,19 @@
     </header>
 
     <div class="barra">
-        <nav class="navegacion-principal contenedor">
+        <a href="#nav" class="mobile-menu">
+            <i class="far fa-ellipsis-v"></i>
+        </a>
+        <nav id="nav" class="navegacion-principal contenedor">
             <a href="#">Inicio</a>
             <a href="#">Nosotros</a>
             <a href="#">Blog</a>
             <a href="#">Tienda</a>
             <a href="#">Contacto</a>
+
+            <a href="#" class="cerrar">
+                <i class="fas fa-times-circle"></i>
+            </a>
         </nav>
     </div>
 
