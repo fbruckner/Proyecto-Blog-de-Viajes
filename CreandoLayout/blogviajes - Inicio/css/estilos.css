@@ -1,0 +1,17 @@
+
+
+.site-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/** Navegacion **/
+.barra {
+    background-color: #d8008d;
+}
